@@ -11,3 +11,16 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+# Print Sorin theme legend
+legend() {
+  echo "added:     ✚"
+  echo "ahead:     ⬆"
+  echo "behind:    ⬇"
+  echo "deleted:   ✖"
+  echo "modified:  ✱"
+  echo "renamed    ➜"
+  echo "stashed:   ✭"
+  echo "unmerged:  ═"
+  echo "untracked: ◼"
+}
