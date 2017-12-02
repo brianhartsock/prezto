@@ -12,3 +12,6 @@ fi
 
 # Python virtualenvwrapper
 export PROJECT_HOME="$HOME/Code"
+
+# Java
+export JAVA_HOME="$(/usr/libexec/java_home)"
