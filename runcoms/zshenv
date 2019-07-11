@@ -17,3 +17,9 @@ export PROJECT_HOME="$HOME/Code"
 if [[ -d /usr/libexec/java_home ]]; then
   export JAVA_HOME="$(/usr/libexec/java_home)"
 fi
+
+# zlib installed from homebrew is keg only and needs compiler directives updated.
+if [[ -d "/usr/local/opt/zlib" ]]; then
+  export LDFLAGS="${LDFLAGS} -L/usr/local/opt/zlib/lib"
+  export CPPFLAGS="${CPPFLAGS} -I/usr/local/opt/zlib/include"
+fi
