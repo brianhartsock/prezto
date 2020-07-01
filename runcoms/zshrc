@@ -24,3 +24,13 @@ legend() {
   echo "unmerged:  ═"
   echo "untracked: ◼"
 }
+
+# Auto-Switch NVM environment when necessary.
+load-nvmrc() {
+  if [[ -f .nvmrc && -r .nvmrc ]]; then
+    nvm use
+  fi
+}
+add-zsh-hook chpwd load-nvmrc
+load-nvmrc # Need to run this on startup if in a directory with .nvmrc
+
