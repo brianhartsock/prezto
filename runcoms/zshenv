@@ -28,5 +28,11 @@ fi
 # bzip2 installed from homebrew is keg only and needs compiler directives updated.
 if [[ -d "/usr/local/opt/bzip2" ]]; then
   export LDFLAGS="${LDFLAGS} -L/usr/local/opt/bzip2/lib"
-  export CPPFLAGS="${CPPFLGS} -I/usr/local/opt/bzip2/include"
+  export CPPFLAGS="${CPPFLAGS} -I/usr/local/opt/bzip2/include"
+fi
+
+# openssl installed from homebrew is keg only and needs compiler directives updated.
+if [[ -d "/usr/local/opt/openssl@1.1" ]]; then
+  export LDFLAGS="${LDFLAGS} -L/usr/local/opt/openssl@1.1/lib"
+  export CPPFLAGS="${CPPFLAGS} -I/usr/local/opt/openssl@1.1/include"
 fi
