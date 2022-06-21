@@ -52,6 +52,8 @@ path=(
   $HOME/{,s}bin(N)
   /opt/{homebrew,local}/{,s}bin(N)
   /usr/local/{,s}bin(N)
+  # Hack for nvm loading fast with --no-use in zprezto
+  ~/.nvm/versions/node/v16.15.0/bin
   $path
 )
 
