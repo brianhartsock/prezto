@@ -24,3 +24,6 @@ legend() {
   echo "unmerged:  ═"
   echo "untracked: ◼"
 }
+
+# Created by `pipx` on 2024-05-19 23:39:17
+export PATH="$PATH:/Users/brianhartsock/.local/bin"
