@@ -46,7 +46,8 @@ zstyle ':prezto:load' pmodule \
   'homebrew' \
   'syntax-highlighting' \
   'autosuggestions' \
-  'prompt'
+  'prompt' \
+  'direnv'
 
 #
 # Autosuggestions
