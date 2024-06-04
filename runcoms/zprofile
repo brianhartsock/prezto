@@ -75,4 +75,4 @@ if [[ -z "$LESSOPEN" ]] && (( $#commands[(i)lesspipe(|.sh)] )); then
 fi
 
 # Created by `pipx` on 2024-05-19 23:39:17
-export PATH="$PATH:/Users/brianhartsock/.local/bin"
+export PATH="$PATH:$HOME/.local/bin"
