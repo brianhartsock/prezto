@@ -10,9 +10,6 @@ if [[ ( "$SHLVL" -eq 1 && ! -o LOGIN ) && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; t
   source "${ZDOTDIR:-$HOME}/.zprofile"
 fi
 
-# Python virtualenvwrapper
-export PROJECT_HOME="$HOME/Code"
-
 # Java
 if [[ -d /usr/libexec/java_home ]]; then
   export JAVA_HOME="$(/usr/libexec/java_home)"
