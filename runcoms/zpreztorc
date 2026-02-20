@@ -45,6 +45,7 @@ zstyle ':prezto:load' pmodule \
   'autosuggestions' \
   'claude-code' \
   'mise' \
+  'python' \
   'prompt'
 
 #
