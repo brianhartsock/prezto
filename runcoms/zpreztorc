@@ -40,8 +40,6 @@ zstyle ':prezto:load' pmodule \
   'completion' \
   'direnv' \
   'history-substring-search' \
-  'git' \
-  'ruby' \
   'homebrew' \
   'syntax-highlighting' \
   'autosuggestions' \
