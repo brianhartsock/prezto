@@ -32,3 +32,6 @@
 [submodule "contrib"]
 	path = contrib
 	url = https://github.com/belak/prezto-contrib.git
+[submodule "my_modules"]
+	path = my_modules
+	url = https://github.com/brianhartsock/zprezto-modules
