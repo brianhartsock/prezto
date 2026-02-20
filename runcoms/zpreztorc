@@ -39,9 +39,9 @@ zstyle ':prezto:load' pmodule \
   'utility' \
   'completion' \
   'direnv' \
+  'syntax-highlighting' \
   'history-substring-search' \
   'homebrew' \
-  'syntax-highlighting' \
   'autosuggestions' \
   'claude-code' \
   'mise' \
