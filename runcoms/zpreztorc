@@ -41,7 +41,6 @@ zstyle ':prezto:load' pmodule \
   'direnv' \
   'history-substring-search' \
   'git' \
-  'node' \
   'ruby' \
   'homebrew' \
   'syntax-highlighting' \
